@@ -2,6 +2,8 @@
 CUNY DATA621<br />
 Blog #2</h2>
 <br />
+<h2>A Multivariate Linear Model to Predict Computer Endpoint Counts Based on Employee Headcount</h2>
+<br />
 <h3>Executive summary</h3>
 <br />
 Part of UW-Madison's "Cybersecurity to the Edge" (C2E) initiative requires estimating the number of UW-Madison-owned endpoints that are running the Qualys Cloud Agent and/or Cisco Secure Endpoint (formerly Cisco AMP), along with the progress of each division in attaining full deployment of the software on all of its endpoints. While the endpoint counts running the software are easily obtained, the total number of endpoints in each division isn't readily available To address this gap, linear models were constructed to leverage known data points in an attempt to estimate total endpoint counts per division. First, mac address counts were gathered from the Authorized Agent Network Tool Suite (AANTS) database, which provides a current count of network-connected devices per IP subnet. This data is of limited quality, as it is difficult to correlate IP subnet to UW division. Second, FTE counts were collected from UW's Tableau instance. Next, actual endpoint counts were gathered from departments having full or near-full deployments of Qualys and AMP. Various linear models were fitted to estimate a quantitative relationship between endpoint counts and mac address and/or FTE counts. To account for units having an atypically large number of endpoints (for example, central service providers), additional categorical variables were manually applied to the data using institutional knowledge. An additional categorical variable was applied to DoIT departments to account for the comparatively high number of endpoints relative to other campus units.<br />
