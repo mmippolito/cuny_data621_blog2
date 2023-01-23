@@ -1,9 +1,9 @@
-## Michael Ippolito
-CUNY DATA621
-Blog #2
-
-## Executive summary
-
+<h2>Michael Ippolito</h2>
+<h3>CUNY DATA621</h3>
+<h3>Blog #2</h3)
+<br />
+<h3>Executive summary</h3>
+<br />
 Part of UW-Madison's "Cybersecurity to the Edge" (C2E) initiative requires estimating the number of UW-Madison-owned endpoints that are running the Qualys Cloud Agent and/or Cisco Secure Endpoint (formerly Cisco AMP), along with the progress of each division in attaining full deployment of the software on all of its endpoints. While the endpoint counts running the software are easily obtained, the total number of endpoints in each division isn't readily available To address this gap, linear models were constructed to leverage known data points in an attempt to estimate total endpoint counts per division. First, mac address counts were gathered from the Authorized Agent Network Tool Suite (AANTS) database, which provides a current count of network-connected devices per IP subnet. This data is of limited quality, as it is difficult to correlate IP subnet to UW division. Second, FTE counts were collected from UW's Tableau instance. Next, actual endpoint counts were gathered from departments having full or near-full deployments of Qualys and AMP. Various linear models were fitted to estimate a quantitative relationship between endpoint counts and mac address and/or FTE counts. To account for units having an atypically large number of endpoints (for example, central service providers), additional categorical variables were manually applied to the data using institutional knowledge. An additional categorical variable was applied to DoIT departments to account for the comparatively high number of endpoints relative to other campus units.
 
 The best model exhibited a strong statistical correlation between endpoint count and FTE count (including adjustments for large and DoIT units), which yielded an adjusted R-squared value of 0.881 (see model analysis below for a complete discussion of the significance of this value). Commonly used techniques to evaluate the model's residuals (how far the data points deviate from the best-fit line) indicate that the model is statistically valid. The total predicted endpoint point estimate of 86,130; however, the 90% prediction interval includes a wide range of values, resulting in lower and upper bounds of 43,600 and 169,000, respectively. Based on current deployment totals, we estimate the campus to have deployed either Qualys or AMP on approximately 40,900 computers (47.5%).
