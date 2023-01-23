@@ -1,6 +1,6 @@
 ## Michael Ippolito
-## CUNY DATA621
-## Blog #2
+CUNY DATA621
+Blog #2
 
 ## Executive summary
 
