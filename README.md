@@ -1,6 +1,6 @@
-<h2>Michael Ippolito</h2>
-<h3>CUNY DATA621</h3>
-<h3>Blog #2</h3)
+<h2>Michael Ippolito<br />
+CUNY DATA621<br />
+Blog #2</h2>
 <br />
 <h3>Executive summary</h3>
 <br />
