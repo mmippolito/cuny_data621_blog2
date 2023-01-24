@@ -15,8 +15,4 @@ One aspect of that security posture is in the realm of endpoint security. Our of
 Recently, we have advocated for a stronger, more active approach to deploying these tools to university endpoints. As with any such effort, leadership is interested in gauging progress, namely how many of the university's endpoints are using the security tools, and how many more do we have to go for a "full" deployment.<br />
 <br />
 
-![image](https://user-images.githubusercontent.com/78266138/214418776-526f5436-ea98-4146-a2e4-df20f9ea417b.png)
-<br />
-<br />
-
 [Link to full writeup](https://github.com/mmippolito/cuny_data621_blog2/blob/main/blog2.pdf)<br />
